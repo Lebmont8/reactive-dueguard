@@ -1,0 +1,17 @@
+{
+  "name": "reactive-dueguard",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "node compile.mjs",
+    "test": "node compile.mjs && node --test test/*.test.mjs",
+    "demo": "node test/smoke.mjs"
+  },
+  "devDependencies": {
+    "solc": "0.8.30",
+    "@ethereumjs/vm": "10.1.0",
+    "ethers": "6.16.0"
+  }
+}
